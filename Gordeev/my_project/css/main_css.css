@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 20px "Pontano Sans", sans-serif;
+    color: #4E3A33;
+}
+
+body{
+    border: 1px solid #D7C8BB;
+    background: #D7C8BB;
+}
+
+.container {
+    margin:0 auto;
+    max-width: 1600px; 
+    overflow: hidden;
+}
+
+.header__top
+{ 
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+    /* margin: 0px 165px; */
+}
+
+ a {
+    margin-right: 40px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #4E3A33;
+}
+
+a:last-child {
+    margin-right: 0; 
+}
+
+.header__end {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.header__end-left, .header__end-right 
+{ 
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.header__icon
+{
+    height:32px;
+}
+
+.header__end-left nav {
+    margin-right: 20px;
+} 
+.mainmenubtn {
+    background-color: #D7C8BB;
+    color: #4E3A33;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+
+.dropdown {
+    display: inline-block;
+}
+
+.mainmenubtn:hover {
+    display: block;
+    background-color: red;
+    color: white;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown .mainmenubtn:hover .dropdown-child {
+    display: block;
+    position: absolute;
+    z-index:200;
+   
+}
+
+
+
+
+.header__end-right li {
+    margin-left: 20px;
+}
+
+.container__img
+{
+    /* margin: 50px 260px 95px 260px; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-evenly;
+    padding: 50px;
+    max-width: 1600px;
+
+}
+
+.popular__brands
+{
+    
+    /* display: flex; */
+    /* flex-flow: row wrap;
+    justify-content: space-between; */
+    font-size: 30px;
+    padding-top: 85px;
+}
+
+.logo
+{
+    padding: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+.background {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+
+
+
+.text__gavan_store
+{
+    padding-top: 20px;
+    width: 900px;
+    font-size:25px; ;
+    /* word-break: break-all; */
+    gap: 10 px;
+}
+
+.gavan_store {
+    font-size: 50px;
+
+
+}
+
+.descreption {
+    margin: 100px auto;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__photo {
+    width: 440px;
+    height: 480px;
+}
+
+.blog__h
+{
+    font-size: 25px;
+}
+
+.blog__image__header
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 33px;
+}
+
+.blog__image__footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+    margin-bottom: 200px;
+}
+
+.footer
+{   
+    padding-top: 85px;
+    background-color: #D6D3D7 ;
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.footer__first
+{  
+    display: flex;
+    
+    list-style-type: none;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+    
+}
+
+.footer__second
+{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social
+{   display: flex;
+    gap: 50px;
+
+}
+
+.bar
+{
+ font: 20px "Pontano Sans Light";  
+ background-color:#D7C8BB;
+ border: none;
+ padding: 10px 150px;
+ text-align: center;
+}
+.bar:focus {
+    outline: none;
+    
+}
+
